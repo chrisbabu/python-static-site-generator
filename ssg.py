@@ -7,6 +7,3 @@ def main(source = "content", dest = "dist"):
     Site(**config).build()
 
 typer.run(main)
-
-# if __name__= '__main__':
-#     main()
